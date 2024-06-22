@@ -1,0 +1,31 @@
+﻿
+@keyframes animacion {
+    100%{
+        background-position: 15% 30%;
+    }
+}
+
+
+body{
+    background-image: url("../resources/low-poly-grid-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animacion 3s infinite alternate linear;
+}
+.login-container {
+    position: unset;
+    margin-top: 18%;
+    background-color: rgba(255,255,255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0,0, 100px rgba(0,0,0,0, 0,1);
+    backdrop-filter: blur(10px); 
+
+}
+
+#lblTitulo {
+    color: white; 
+}
+
+.colorBlanco {
+    color: white;
+}

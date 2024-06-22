@@ -1,0 +1,14 @@
+﻿
+@keyframes animacion {
+    100%{
+        background-position: 15% 30%;
+    }
+}
+
+
+body{
+    background-image: url("../resources/fondoLogin.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animacion 3s infinite alternate linear;
+}
